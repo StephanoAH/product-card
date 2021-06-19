@@ -13,6 +13,7 @@
   position: relative;
   background-color: #1d1f21;
   border-radius: 12px;
+  cursor: grab;
 }
 
 .TopContainer {
@@ -52,6 +53,7 @@
   margin: 0;
   margin-bottom: 0.4em;
   z-index: 2;
+  user-select: none;
 }
 
 .ProductContainer {
