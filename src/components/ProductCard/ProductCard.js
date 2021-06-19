@@ -1,5 +1,6 @@
 import React from "react";
 import Shoes from "../../assets/air-jordan-transparent.png";
+import ProductCardDetails from "./ProductCardDetails/ProductCardDetails.js";
 import styles from "./ProductCard.module.css";
 
 function ProductCard() {
@@ -18,7 +19,7 @@ function ProductCard() {
           </div>
         </div>
         <div className={styles.BottomContainer}>
-          {/* TODO: Add a ProductCardDetail component */}
+          <ProductCardDetails />
         </div>
       </div>
     </div>
